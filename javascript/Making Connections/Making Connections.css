@@ -1,0 +1,139 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.links {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 190px;
+}
+button {
+    background-color: cadetblue;
+    margin-right: 290px;
+}
+li {
+    margin: 10px;
+}
+li>a {
+    text-decoration: none;
+}
+.Profile {
+    font-size: larger;
+    position: relative;
+    bottom: 5px;
+}
+.my-Profile {
+    font-weight: bold;
+}
+button {
+    background-color: cadetblue;
+    height: 25px;
+    position: relative;
+    top: 40px;
+    right: 10px;
+    color: white;
+}
+#columns {
+    display: flex;
+    padding-left: 15em;
+}
+#leftcolumn, #rightcolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 454px;
+}
+#user-card {
+    position: relative;
+    height: 300px;
+    top: 10px;
+}
+.user {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.profile-pic {
+    background-color: cadetblue;
+}
+.map-icon, .location {
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+h2 {
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.map-icon {
+    height: 13px;
+    width: 10px;
+}
+.gear-icon {
+    height: 10px;
+    width: 10px;
+}
+#user-info {
+    background-color: white;
+    border: grey solid;
+    padding: 3px;
+}
+#basic-info {
+margin-top: 40px;
+}
+.education {
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding-left: 1em;
+}
+.edu-info {
+    border: solid grey;
+}
+.course {
+    font-size: large;
+}
+.date {
+    color: grey;
+}
+
+#connections {
+    border: solid grey;
+    margin-top: 10px;
+}
+span {
+    border: solid grey;
+    background-color: grey;
+    color: darkslategray;
+    border-radius: 50%;
+}
+.requests-num, .Connections-num {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 16px;
+    height: 30px;
+    padding-top: 5px;
+}
+.images > p, .images > img {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+}
+.images-arry {
+    border-bottom: solid grey;
+}
+#friends {
+    border: solid grey;
+    margin-top: 5px;
+}

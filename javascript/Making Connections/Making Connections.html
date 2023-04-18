@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="Making Connections.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <ul class="links">
+        <li class="Profile">
+          <a href="#">Profile</a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#" class="my-Profile">My Profile</a>
+        </li>
+        <li>
+          <a href="#">Find Connections</a>
+        </li>
+      </ul>
+      <button>Sign Out</button>
+    </div>
+    <div id="columns">
+      <div id="leftcolumn">
+        <div id="user-card">
+          <div class="profile-pic">
+            <img class="user" src="images/jane-m.jpg" alt="user-circle" />
+          </div>
+          <div id="user-info">
+            <h2 class="name">Jane doe</h2>
+            <img class="map-icon" src="icons/map-marker.png" alt="map-marker" />
+            <p class="location">Seattle</p>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+            <img class="gear-icon" src="icons/gear.png" alt="gear" />
+            <a href="#" onclick="changeName()">edit profile</a>
+          </div>
+        </div>
+        <div id="basic-info">
+          <div class="education">
+            <p>Education</p>
+          </div>
+          <div class="edu-info">
+            <p class="course">Coding Dojo-Full Stack Bootcamp</p>
+            <p class="date">Dec 2019 - Mar 2020</p>
+            <p>Triple black belt in Python, MERN, and C#</p>
+          </div>
+        </div>
+      </div>
+      <div id="rightcolumn">
+        <div id="connections">
+          <div>
+            <p class="requests-num">
+              <span class="number"> 2 </span> Connection requests
+            </p>
+          </div>
+          <div class="images todd">
+            <img src="images/todd-s.jpg" alt="Todd" />
+            <p>Todd E</p>
+            <img src="icons/accept-circle.png" alt="accept" onclick="Todd()" />
+            <img
+              src="icons/close-circle.png"
+              alt="reject"
+              onclick="hideTodd(); deductRequestsTodd()"
+            />
+          </div>
+          <div class="images phil">
+            <img src="images/phil-s.jpg" alt="Phil" />
+            <p>Phil K</p>
+            <img
+              src="icons/accept-circle.png"
+              alt="accept"
+              onclick="hidePhil(); deductRequestsPhil(); addConnections()"
+            />
+            <img
+              src="icons/close-circle.png"
+              alt="reject"
+              onclick="hidePhil(); deductRequestsPhil()"
+            />
+          </div>
+        </div>
+        <div id="friends">
+          <div class="your-connections">
+            <p class="Connections-num">
+              <span class="friends"> 500 </span> Your connections
+            </p>
+          </div>
+          <div class="images">
+            <img src="images/adrien-s.jpg" alt="Adrien" />
+            <p>Adrien D</p>
+          </div>
+          <div class="images">
+            <img src="images/anne-s.jpg" alt="anne" />
+            <p>Anne J</p>
+          </div>
+          <div class="images">
+            <img src="images/alayne-s.jpg" alt="alayne" />
+            <p>Alayne T</p>
+          </div>
+          <div class="images-arry images">
+            <img src="images/arry-s.jpg" alt="arry" />
+            <p>Arry Y</p>
+          </div>
+          <a href="#">view more</a>
+        </div>
+      </div>
+    </div>
+    <script src="Making Connections.js"></script>
+  </body>
+</html>

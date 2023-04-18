@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="/process" method="post">
+            <h1>Registration Form</h1>
+            <div>
+                <label>First Name: *</label>
+                <input type="text" name="First-Name" placeholder="First-Name">
+            </div>
+            <div>
+                <label>Last Name: *</label>
+                <input type="text" name="Last-Name" placeholder="Last-Name">
+            </div>
+            <div>
+                <label>Email Address: *</label>
+                <input type="email" name="Email" placeholder="Email">
+            </div>
+            <div>
+                <label>password: *</label>
+                <input type="password" name="password" placeholder="......">
+            </div>
+            <div>
+                <label>Confirm password: *</label>
+                <input type="password" name="Confirm" placeholder=".....">
+            </div>
+            <div>
+                <label>Birthday: </label>
+                <input type="date" name="DOB">
+            </div>
+            <p>Gender Identity:</p>
+            <div>
+                <input type="radio" name="Gender" id="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+            </div>
+            <p>A short description about yourself</p>
+            <div>
+                <textarea name="description" cols="25" rows="6"></textarea>
+            </div>
+            <div>
+                <label for="lang">favourite language</label>
+                <select name="lang" id="lang">
+                    <option value="html">html</option>
+                    <option value="C#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="python">python</option>
+                </select>
+            </div>
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Mohammad</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Islam</td>
+                        <td>28</td>
+                    </tr>
+                </table>
+            <div>
+                <input type="checkbox" name="agreement" id="agree">
+                <label for="agree">Yes, I would like to recieve periodic email updates</label>
+            </div>
+            <input type="submit" value="Create Account">    
+        </form>
+        <p>* Indicates a required field</p>
+    </body>
+</html>

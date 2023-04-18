@@ -1,0 +1,19 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+span {
+    color: aqua;
+}
+h2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    background-color: cyan;
+    text-decoration: underline;
+    text-align: right;
+}
